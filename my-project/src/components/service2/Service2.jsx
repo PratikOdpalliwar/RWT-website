@@ -13,7 +13,8 @@ function ServiceBlock({ icon, title, description, detailButtonIcon }) {
   }, []);
 
   return (
-    <div className="col-lg-4 single-block">
+    // did black bag
+    <div className="col-lg-4 single-block bg-black">
       <div className="service-block">
         <span className="snow-dot"></span>
         <span className="snow-dot"></span>
@@ -34,7 +35,9 @@ function ServiceBlock({ icon, title, description, detailButtonIcon }) {
 
 function OurServices() {
   return (
-    <div className="our-service-sass hide-pr show-pr">
+    <div 
+    style={{background:"black"}}
+    className="our-service-sass hide-pr show-pr">
       <div className="container">
         <div className="theme-title-one text-center">
           <div className="icon-box hide-pr">
